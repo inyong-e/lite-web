@@ -220,6 +220,42 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@react-editor-js/client@npm:2.1.0":
+  version: 2.1.0
+  resolution: "@react-editor-js/client@npm:2.1.0"
+  dependencies:
+    "@react-editor-js/core": 2.1.0
+  peerDependencies:
+    "@editorjs/editorjs": "*"
+    "@editorjs/paragraph": "*"
+    react: "*"
+  checksum: f2157fc3bc1b34e9eec3fa183670c71f65275406d194d53995b0c0083e5f05903ced5560d9a38a958b7a1b1c441d984e69d4196f335098cc594aa2b265863a16
+  languageName: node
+  linkType: hard
+
+"@react-editor-js/core@npm:2.1.0":
+  version: 2.1.0
+  resolution: "@react-editor-js/core@npm:2.1.0"
+  peerDependencies:
+    "@editorjs/editorjs": "*"
+    react: "*"
+  checksum: 753509eaf8510f45f5b453f85260117ad8473331d70425b25310f5fc0d16d988eaa1880d9b9924926f93cce5969daf08b1a4887a8f6913fb7cf34a646be0406b
+  languageName: node
+  linkType: hard
+
+"@react-editor-js/server@npm:2.1.0":
+  version: 2.1.0
+  resolution: "@react-editor-js/server@npm:2.1.0"
+  dependencies:
+    "@react-editor-js/core": 2.1.0
+  peerDependencies:
+    "@editorjs/editorjs": "*"
+    "@editorjs/paragraph": "*"
+    react: "*"
+  checksum: ff0139cd5999c48305ed1a8b77a6a8e80ad68e63829a31f1396126ad9f3011fd18bdf86798cb5810a4026c233804a2869c5ad78cc208f092a3dde0aed5d3a533
+  languageName: node
+  linkType: hard
+
 "@rushstack/eslint-patch@npm:^1.1.3":
   version: 1.2.0
   resolution: "@rushstack/eslint-patch@npm:1.2.0"
@@ -2228,6 +2264,7 @@ __metadata:
     next: 13.1.2
     react: 18.2.0
     react-dom: 18.2.0
+    react-editor-js: ^2.1.0
     typescript: 4.9.4
   languageName: unknown
   linkType: soft
@@ -2759,6 +2796,17 @@ __metadata:
   peerDependencies:
     react: ^18.2.0
   checksum: 7d323310bea3a91be2965f9468d552f201b1c27891e45ddc2d6b8f717680c95a75ae0bc1e3f5cf41472446a2589a75aed4483aee8169287909fcd59ad149e8cc
+  languageName: node
+  linkType: hard
+
+"react-editor-js@npm:^2.1.0":
+  version: 2.1.0
+  resolution: "react-editor-js@npm:2.1.0"
+  dependencies:
+    "@react-editor-js/client": 2.1.0
+    "@react-editor-js/core": 2.1.0
+    "@react-editor-js/server": 2.1.0
+  checksum: d18672cecb62ea2633a8f2eebf20a0bc76dd682072981c6e3e2841a319222c15572ab2dfc7ef99d57f73113d1f6db84f58ee2e63669a5966f0bd9ade1057456a
   languageName: node
   linkType: hard
 

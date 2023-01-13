@@ -38,6 +38,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["next", "virtual:987813db322887fc7c7a3ed110ff4df9de17f5a5d47638e2ee48a79c80dd2ee4204f5d6ad500aba17aac22aae9ab1a910f0cbdc0edece6e620e25f83220c9dd3#npm:13.1.2"],\
             ["react", "npm:18.2.0"],\
             ["react-dom", "virtual:987813db322887fc7c7a3ed110ff4df9de17f5a5d47638e2ee48a79c80dd2ee4204f5d6ad500aba17aac22aae9ab1a910f0cbdc0edece6e620e25f83220c9dd3#npm:18.2.0"],\
+            ["react-editor-js", "npm:2.1.0"],\
             ["typescript", "patch:typescript@npm%3A4.9.4#~builtin<compat/typescript>::version=4.9.4&hash=ad5954"]\
           ],\
           "linkType": "SOFT"\
@@ -298,6 +299,94 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["picocolors", "npm:1.0.0"],\
             ["tiny-glob", "npm:0.2.9"],\
             ["tslib", "npm:2.4.1"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["@react-editor-js/client", [\
+        ["npm:2.1.0", {\
+          "packageLocation": "./.yarn/cache/@react-editor-js-client-npm-2.1.0-f124aee5c3-f2157fc3bc.zip/node_modules/@react-editor-js/client/",\
+          "packageDependencies": [\
+            ["@react-editor-js/client", "npm:2.1.0"]\
+          ],\
+          "linkType": "SOFT"\
+        }],\
+        ["virtual:1951d73c6d0379ea2ed3f5fa247e17141323234dea07e0fd6f57cbfb3f2185c7d0b60af92a196bf3619d407a8628d1cf29c1743c0ff0af1cba240f4765d0f4c4#npm:2.1.0", {\
+          "packageLocation": "./.yarn/__virtual__/@react-editor-js-client-virtual-8e5bc1b7be/0/cache/@react-editor-js-client-npm-2.1.0-f124aee5c3-f2157fc3bc.zip/node_modules/@react-editor-js/client/",\
+          "packageDependencies": [\
+            ["@react-editor-js/client", "virtual:1951d73c6d0379ea2ed3f5fa247e17141323234dea07e0fd6f57cbfb3f2185c7d0b60af92a196bf3619d407a8628d1cf29c1743c0ff0af1cba240f4765d0f4c4#npm:2.1.0"],\
+            ["@editorjs/editorjs", null],\
+            ["@editorjs/paragraph", null],\
+            ["@react-editor-js/core", "virtual:1951d73c6d0379ea2ed3f5fa247e17141323234dea07e0fd6f57cbfb3f2185c7d0b60af92a196bf3619d407a8628d1cf29c1743c0ff0af1cba240f4765d0f4c4#npm:2.1.0"],\
+            ["@types/editorjs__editorjs", null],\
+            ["@types/editorjs__paragraph", null],\
+            ["@types/react", null],\
+            ["react", null]\
+          ],\
+          "packagePeers": [\
+            "@editorjs/editorjs",\
+            "@editorjs/paragraph",\
+            "@types/editorjs__editorjs",\
+            "@types/editorjs__paragraph",\
+            "@types/react",\
+            "react"\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["@react-editor-js/core", [\
+        ["npm:2.1.0", {\
+          "packageLocation": "./.yarn/cache/@react-editor-js-core-npm-2.1.0-6e409c5f00-753509eaf8.zip/node_modules/@react-editor-js/core/",\
+          "packageDependencies": [\
+            ["@react-editor-js/core", "npm:2.1.0"]\
+          ],\
+          "linkType": "SOFT"\
+        }],\
+        ["virtual:1951d73c6d0379ea2ed3f5fa247e17141323234dea07e0fd6f57cbfb3f2185c7d0b60af92a196bf3619d407a8628d1cf29c1743c0ff0af1cba240f4765d0f4c4#npm:2.1.0", {\
+          "packageLocation": "./.yarn/__virtual__/@react-editor-js-core-virtual-7a60c19322/0/cache/@react-editor-js-core-npm-2.1.0-6e409c5f00-753509eaf8.zip/node_modules/@react-editor-js/core/",\
+          "packageDependencies": [\
+            ["@react-editor-js/core", "virtual:1951d73c6d0379ea2ed3f5fa247e17141323234dea07e0fd6f57cbfb3f2185c7d0b60af92a196bf3619d407a8628d1cf29c1743c0ff0af1cba240f4765d0f4c4#npm:2.1.0"],\
+            ["@editorjs/editorjs", null],\
+            ["@types/editorjs__editorjs", null],\
+            ["@types/react", null],\
+            ["react", null]\
+          ],\
+          "packagePeers": [\
+            "@editorjs/editorjs",\
+            "@types/editorjs__editorjs",\
+            "@types/react",\
+            "react"\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["@react-editor-js/server", [\
+        ["npm:2.1.0", {\
+          "packageLocation": "./.yarn/cache/@react-editor-js-server-npm-2.1.0-6cd3853f4d-ff0139cd59.zip/node_modules/@react-editor-js/server/",\
+          "packageDependencies": [\
+            ["@react-editor-js/server", "npm:2.1.0"]\
+          ],\
+          "linkType": "SOFT"\
+        }],\
+        ["virtual:1951d73c6d0379ea2ed3f5fa247e17141323234dea07e0fd6f57cbfb3f2185c7d0b60af92a196bf3619d407a8628d1cf29c1743c0ff0af1cba240f4765d0f4c4#npm:2.1.0", {\
+          "packageLocation": "./.yarn/__virtual__/@react-editor-js-server-virtual-77485c84d0/0/cache/@react-editor-js-server-npm-2.1.0-6cd3853f4d-ff0139cd59.zip/node_modules/@react-editor-js/server/",\
+          "packageDependencies": [\
+            ["@react-editor-js/server", "virtual:1951d73c6d0379ea2ed3f5fa247e17141323234dea07e0fd6f57cbfb3f2185c7d0b60af92a196bf3619d407a8628d1cf29c1743c0ff0af1cba240f4765d0f4c4#npm:2.1.0"],\
+            ["@editorjs/editorjs", null],\
+            ["@editorjs/paragraph", null],\
+            ["@react-editor-js/core", "virtual:1951d73c6d0379ea2ed3f5fa247e17141323234dea07e0fd6f57cbfb3f2185c7d0b60af92a196bf3619d407a8628d1cf29c1743c0ff0af1cba240f4765d0f4c4#npm:2.1.0"],\
+            ["@types/editorjs__editorjs", null],\
+            ["@types/editorjs__paragraph", null],\
+            ["@types/react", null],\
+            ["react", null]\
+          ],\
+          "packagePeers": [\
+            "@editorjs/editorjs",\
+            "@editorjs/paragraph",\
+            "@types/editorjs__editorjs",\
+            "@types/editorjs__paragraph",\
+            "@types/react",\
+            "react"\
           ],\
           "linkType": "HARD"\
         }]\
@@ -2740,6 +2829,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["next", "virtual:987813db322887fc7c7a3ed110ff4df9de17f5a5d47638e2ee48a79c80dd2ee4204f5d6ad500aba17aac22aae9ab1a910f0cbdc0edece6e620e25f83220c9dd3#npm:13.1.2"],\
             ["react", "npm:18.2.0"],\
             ["react-dom", "virtual:987813db322887fc7c7a3ed110ff4df9de17f5a5d47638e2ee48a79c80dd2ee4204f5d6ad500aba17aac22aae9ab1a910f0cbdc0edece6e620e25f83220c9dd3#npm:18.2.0"],\
+            ["react-editor-js", "npm:2.1.0"],\
             ["typescript", "patch:typescript@npm%3A4.9.4#~builtin<compat/typescript>::version=4.9.4&hash=ad5954"]\
           ],\
           "linkType": "SOFT"\
@@ -3349,6 +3439,18 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packagePeers": [\
             "@types/react",\
             "react"\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["react-editor-js", [\
+        ["npm:2.1.0", {\
+          "packageLocation": "./.yarn/cache/react-editor-js-npm-2.1.0-1951d73c6d-d18672cecb.zip/node_modules/react-editor-js/",\
+          "packageDependencies": [\
+            ["react-editor-js", "npm:2.1.0"],\
+            ["@react-editor-js/client", "virtual:1951d73c6d0379ea2ed3f5fa247e17141323234dea07e0fd6f57cbfb3f2185c7d0b60af92a196bf3619d407a8628d1cf29c1743c0ff0af1cba240f4765d0f4c4#npm:2.1.0"],\
+            ["@react-editor-js/core", "virtual:1951d73c6d0379ea2ed3f5fa247e17141323234dea07e0fd6f57cbfb3f2185c7d0b60af92a196bf3619d407a8628d1cf29c1743c0ff0af1cba240f4765d0f4c4#npm:2.1.0"],\
+            ["@react-editor-js/server", "virtual:1951d73c6d0379ea2ed3f5fa247e17141323234dea07e0fd6f57cbfb3f2185c7d0b60af92a196bf3619d407a8628d1cf29c1743c0ff0af1cba240f4765d0f4c4#npm:2.1.0"]\
           ],\
           "linkType": "HARD"\
         }]\
