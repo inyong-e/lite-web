@@ -1,12 +1,13 @@
-import {createReactEditorJS} from 'react-editor-js';
-
+import { createReactEditorJS } from "react-editor-js";
 
 const ReactEditor = createReactEditorJS();
 
 const Editor = () => {
-  return (<>
-    <ReactEditor />
-  </>)
-}
+  return (
+    <>
+      <ReactEditor />
+    </>
+  );
+};
 
 export default Editor;
