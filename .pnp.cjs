@@ -28,6 +28,9 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         [null, {\
           "packageLocation": "./",\
           "packageDependencies": [\
+            ["@editorjs/checklist", "npm:1.4.0"],\
+            ["@editorjs/editorjs", "npm:2.26.4"],\
+            ["@editorjs/paragraph", "npm:2.9.0"],\
             ["@next/font", "npm:13.1.2"],\
             ["@types/node", "npm:18.11.18"],\
             ["@types/react", "npm:18.0.26"],\
@@ -65,6 +68,56 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [\
             ["@babel/runtime", "npm:7.20.7"],\
             ["regenerator-runtime", "npm:0.13.11"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["@codexteam/icons", [\
+        ["npm:0.0.4", {\
+          "packageLocation": "./.yarn/cache/@codexteam-icons-npm-0.0.4-7e26576f5a-ead8fc8ad3.zip/node_modules/@codexteam/icons/",\
+          "packageDependencies": [\
+            ["@codexteam/icons", "npm:0.0.4"]\
+          ],\
+          "linkType": "HARD"\
+        }],\
+        ["npm:0.1.0", {\
+          "packageLocation": "./.yarn/cache/@codexteam-icons-npm-0.1.0-0b2e6467a8-df50a6606a.zip/node_modules/@codexteam/icons/",\
+          "packageDependencies": [\
+            ["@codexteam/icons", "npm:0.1.0"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["@editorjs/checklist", [\
+        ["npm:1.4.0", {\
+          "packageLocation": "./.yarn/cache/@editorjs-checklist-npm-1.4.0-446d94549b-e38ff46af5.zip/node_modules/@editorjs/checklist/",\
+          "packageDependencies": [\
+            ["@editorjs/checklist", "npm:1.4.0"],\
+            ["@codexteam/icons", "npm:0.0.4"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["@editorjs/editorjs", [\
+        ["npm:2.26.4", {\
+          "packageLocation": "./.yarn/cache/@editorjs-editorjs-npm-2.26.4-76f2a63bec-78d8cda672.zip/node_modules/@editorjs/editorjs/",\
+          "packageDependencies": [\
+            ["@editorjs/editorjs", "npm:2.26.4"],\
+            ["@codexteam/icons", "npm:0.1.0"],\
+            ["codex-notifier", "npm:1.1.2"],\
+            ["codex-tooltip", "npm:1.0.5"],\
+            ["html-janitor", "npm:2.0.4"],\
+            ["nanoid", "npm:3.3.4"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["@editorjs/paragraph", [\
+        ["npm:2.9.0", {\
+          "packageLocation": "./.yarn/cache/@editorjs-paragraph-npm-2.9.0-1df54d17fb-f91acaee6d.zip/node_modules/@editorjs/paragraph/",\
+          "packageDependencies": [\
+            ["@editorjs/paragraph", "npm:2.9.0"],\
+            ["@codexteam/icons", "npm:0.0.4"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -1222,6 +1275,24 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/clsx-npm-1.2.1-77792dc182-30befca801.zip/node_modules/clsx/",\
           "packageDependencies": [\
             ["clsx", "npm:1.2.1"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["codex-notifier", [\
+        ["npm:1.1.2", {\
+          "packageLocation": "./.yarn/cache/codex-notifier-npm-1.1.2-893faf9b49-2130f5b1ff.zip/node_modules/codex-notifier/",\
+          "packageDependencies": [\
+            ["codex-notifier", "npm:1.1.2"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["codex-tooltip", [\
+        ["npm:1.0.5", {\
+          "packageLocation": "./.yarn/cache/codex-tooltip-npm-1.0.5-b69f9284fd-8ea91ce698.zip/node_modules/codex-tooltip/",\
+          "packageDependencies": [\
+            ["codex-tooltip", "npm:1.0.5"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -2516,6 +2587,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
+      ["html-janitor", [\
+        ["npm:2.0.4", {\
+          "packageLocation": "./.yarn/cache/html-janitor-npm-2.0.4-c37abe5f0d-e571c8d753.zip/node_modules/html-janitor/",\
+          "packageDependencies": [\
+            ["html-janitor", "npm:2.0.4"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
       ["http-cache-semantics", [\
         ["npm:4.1.0", {\
           "packageLocation": "./.yarn/cache/http-cache-semantics-npm-4.1.0-860520a31f-974de94a81.zip/node_modules/http-cache-semantics/",\
@@ -3014,6 +3094,9 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./",\
           "packageDependencies": [\
             ["lite-main-web", "workspace:."],\
+            ["@editorjs/checklist", "npm:1.4.0"],\
+            ["@editorjs/editorjs", "npm:2.26.4"],\
+            ["@editorjs/paragraph", "npm:2.9.0"],\
             ["@next/font", "npm:13.1.2"],\
             ["@types/node", "npm:18.11.18"],\
             ["@types/react", "npm:18.0.26"],\

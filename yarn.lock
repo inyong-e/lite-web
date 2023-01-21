@@ -23,6 +23,51 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@codexteam/icons@npm:0.1.0":
+  version: 0.1.0
+  resolution: "@codexteam/icons@npm:0.1.0"
+  checksum: df50a6606aed5e4375ca2c7c21da7bb91877022793a2362bc37135309d92c86695619887160416db64d9e1fb1c063761e6aacebe1ce478ef43e59ca75d8f6ab5
+  languageName: node
+  linkType: hard
+
+"@codexteam/icons@npm:^0.0.4":
+  version: 0.0.4
+  resolution: "@codexteam/icons@npm:0.0.4"
+  checksum: ead8fc8ad333e450f174fe5c7a74cbde7e34beff4ae6512962d96a115860c5a254ad5577f4e9a5c9134ef01775a6771da8fc547807b6e08dc000bd1c67642304
+  languageName: node
+  linkType: hard
+
+"@editorjs/checklist@npm:^1.4.0":
+  version: 1.4.0
+  resolution: "@editorjs/checklist@npm:1.4.0"
+  dependencies:
+    "@codexteam/icons": ^0.0.4
+  checksum: e38ff46af5626fffdede7d462a32a587086968e915924661bab4b90d491fa74f4bc8f65cf49b42f976a02f709c0df720dcc626b2c22ee2b94703a9bd6a5cf0d9
+  languageName: node
+  linkType: hard
+
+"@editorjs/editorjs@npm:^2.26.4":
+  version: 2.26.4
+  resolution: "@editorjs/editorjs@npm:2.26.4"
+  dependencies:
+    "@codexteam/icons": 0.1.0
+    codex-notifier: ^1.1.2
+    codex-tooltip: ^1.0.5
+    html-janitor: ^2.0.4
+    nanoid: ^3.1.22
+  checksum: 78d8cda672baf5ace0a9fdbe44d5f3f585fb3e68060c9ae2277d946f183e3fabee49720b9bce3e481be2a2c86103098cee55d2199b8cbcdacc1667d5bc68bf70
+  languageName: node
+  linkType: hard
+
+"@editorjs/paragraph@npm:^2.9.0":
+  version: 2.9.0
+  resolution: "@editorjs/paragraph@npm:2.9.0"
+  dependencies:
+    "@codexteam/icons": ^0.0.4
+  checksum: f91acaee6d052ad78b9ee3245a2bdf02627dac66e7f8bbdb9676d3bfa85dc91d0cc25508b68c9b4cbaa1dd1a1ccba8689e4b54ede36ea5d950adf8a06458a79a
+  languageName: node
+  linkType: hard
+
 "@eslint/eslintrc@npm:^1.4.1":
   version: 1.4.1
   resolution: "@eslint/eslintrc@npm:1.4.1"
@@ -904,6 +949,20 @@ __metadata:
   version: 1.2.1
   resolution: "clsx@npm:1.2.1"
   checksum: 30befca8019b2eb7dbad38cff6266cf543091dae2825c856a62a8ccf2c3ab9c2907c4d12b288b73101196767f66812365400a227581484a05f968b0307cfaf12
+  languageName: node
+  linkType: hard
+
+"codex-notifier@npm:^1.1.2":
+  version: 1.1.2
+  resolution: "codex-notifier@npm:1.1.2"
+  checksum: 2130f5b1ff2a55417cb40132b8fa220139e761f95b9183a3616cf595c4d9cb1777a0e90675ac69a5c22253013f65ae76428f09946c69b08b11b846b1f849e461
+  languageName: node
+  linkType: hard
+
+"codex-tooltip@npm:^1.0.5":
+  version: 1.0.5
+  resolution: "codex-tooltip@npm:1.0.5"
+  checksum: 8ea91ce69853b7054f7379710ce03163fc1262db20f4e56a38d4eb946ece37fa18b07d13df6fb72d3b7fce768af26c8af169766b0aed1f9625210fe05e182f20
   languageName: node
   linkType: hard
 
@@ -1926,6 +1985,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"html-janitor@npm:^2.0.4":
+  version: 2.0.4
+  resolution: "html-janitor@npm:2.0.4"
+  checksum: e571c8d75363a2c448507dff7654bbe35cf66755295a71e20289d1374d73786430ff2525b742d69adabeb6697c90c17d9b04fb70ce8de14b2ef635b4e06d0161
+  languageName: node
+  linkType: hard
+
 "http-cache-semantics@npm:^4.0.0":
   version: 4.1.0
   resolution: "http-cache-semantics@npm:4.1.0"
@@ -2360,6 +2426,9 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "lite-main-web@workspace:."
   dependencies:
+    "@editorjs/checklist": ^1.4.0
+    "@editorjs/editorjs": ^2.26.4
+    "@editorjs/paragraph": ^2.9.0
     "@next/font": 13.1.2
     "@types/node": 18.11.18
     "@types/react": 18.0.26
@@ -2535,7 +2604,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"nanoid@npm:^3.3.4":
+"nanoid@npm:^3.1.22, nanoid@npm:^3.3.4":
   version: 3.3.4
   resolution: "nanoid@npm:3.3.4"
   bin:

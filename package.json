@@ -9,6 +9,9 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@editorjs/checklist": "^1.4.0",
+    "@editorjs/editorjs": "^2.26.4",
+    "@editorjs/paragraph": "^2.9.0",
     "@next/font": "13.1.2",
     "@types/node": "18.11.18",
     "@types/react": "18.0.26",
