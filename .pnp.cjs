@@ -28,9 +28,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         [null, {\
           "packageLocation": "./",\
           "packageDependencies": [\
-            ["@editorjs/checklist", "npm:1.4.0"],\
-            ["@editorjs/editorjs", "npm:2.26.4"],\
-            ["@editorjs/paragraph", "npm:2.9.0"],\
             ["@next/font", "npm:13.1.2"],\
             ["@types/node", "npm:18.11.18"],\
             ["@types/react", "npm:18.0.26"],\
@@ -44,7 +41,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["prettier", "npm:2.8.3"],\
             ["react", "npm:18.2.0"],\
             ["react-dom", "virtual:987813db322887fc7c7a3ed110ff4df9de17f5a5d47638e2ee48a79c80dd2ee4204f5d6ad500aba17aac22aae9ab1a910f0cbdc0edece6e620e25f83220c9dd3#npm:18.2.0"],\
-            ["react-editor-js", "npm:2.1.0"],\
             ["semantic-ui-css", "npm:2.5.0"],\
             ["semantic-ui-react", "virtual:987813db322887fc7c7a3ed110ff4df9de17f5a5d47638e2ee48a79c80dd2ee4204f5d6ad500aba17aac22aae9ab1a910f0cbdc0edece6e620e25f83220c9dd3#npm:2.1.4"],\
             ["typescript", "patch:typescript@npm%3A4.9.4#~builtin<compat/typescript>::version=4.9.4&hash=ad5954"]\
@@ -68,56 +64,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [\
             ["@babel/runtime", "npm:7.20.7"],\
             ["regenerator-runtime", "npm:0.13.11"]\
-          ],\
-          "linkType": "HARD"\
-        }]\
-      ]],\
-      ["@codexteam/icons", [\
-        ["npm:0.0.4", {\
-          "packageLocation": "./.yarn/cache/@codexteam-icons-npm-0.0.4-7e26576f5a-ead8fc8ad3.zip/node_modules/@codexteam/icons/",\
-          "packageDependencies": [\
-            ["@codexteam/icons", "npm:0.0.4"]\
-          ],\
-          "linkType": "HARD"\
-        }],\
-        ["npm:0.1.0", {\
-          "packageLocation": "./.yarn/cache/@codexteam-icons-npm-0.1.0-0b2e6467a8-df50a6606a.zip/node_modules/@codexteam/icons/",\
-          "packageDependencies": [\
-            ["@codexteam/icons", "npm:0.1.0"]\
-          ],\
-          "linkType": "HARD"\
-        }]\
-      ]],\
-      ["@editorjs/checklist", [\
-        ["npm:1.4.0", {\
-          "packageLocation": "./.yarn/cache/@editorjs-checklist-npm-1.4.0-446d94549b-e38ff46af5.zip/node_modules/@editorjs/checklist/",\
-          "packageDependencies": [\
-            ["@editorjs/checklist", "npm:1.4.0"],\
-            ["@codexteam/icons", "npm:0.0.4"]\
-          ],\
-          "linkType": "HARD"\
-        }]\
-      ]],\
-      ["@editorjs/editorjs", [\
-        ["npm:2.26.4", {\
-          "packageLocation": "./.yarn/cache/@editorjs-editorjs-npm-2.26.4-76f2a63bec-78d8cda672.zip/node_modules/@editorjs/editorjs/",\
-          "packageDependencies": [\
-            ["@editorjs/editorjs", "npm:2.26.4"],\
-            ["@codexteam/icons", "npm:0.1.0"],\
-            ["codex-notifier", "npm:1.1.2"],\
-            ["codex-tooltip", "npm:1.0.5"],\
-            ["html-janitor", "npm:2.0.4"],\
-            ["nanoid", "npm:3.3.4"]\
-          ],\
-          "linkType": "HARD"\
-        }]\
-      ]],\
-      ["@editorjs/paragraph", [\
-        ["npm:2.9.0", {\
-          "packageLocation": "./.yarn/cache/@editorjs-paragraph-npm-2.9.0-1df54d17fb-f91acaee6d.zip/node_modules/@editorjs/paragraph/",\
-          "packageDependencies": [\
-            ["@editorjs/paragraph", "npm:2.9.0"],\
-            ["@codexteam/icons", "npm:0.0.4"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -421,94 +367,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/@popperjs-core-npm-2.11.6-5bcdc104bd-47fb328cec.zip/node_modules/@popperjs/core/",\
           "packageDependencies": [\
             ["@popperjs/core", "npm:2.11.6"]\
-          ],\
-          "linkType": "HARD"\
-        }]\
-      ]],\
-      ["@react-editor-js/client", [\
-        ["npm:2.1.0", {\
-          "packageLocation": "./.yarn/cache/@react-editor-js-client-npm-2.1.0-f124aee5c3-f2157fc3bc.zip/node_modules/@react-editor-js/client/",\
-          "packageDependencies": [\
-            ["@react-editor-js/client", "npm:2.1.0"]\
-          ],\
-          "linkType": "SOFT"\
-        }],\
-        ["virtual:1951d73c6d0379ea2ed3f5fa247e17141323234dea07e0fd6f57cbfb3f2185c7d0b60af92a196bf3619d407a8628d1cf29c1743c0ff0af1cba240f4765d0f4c4#npm:2.1.0", {\
-          "packageLocation": "./.yarn/__virtual__/@react-editor-js-client-virtual-8e5bc1b7be/0/cache/@react-editor-js-client-npm-2.1.0-f124aee5c3-f2157fc3bc.zip/node_modules/@react-editor-js/client/",\
-          "packageDependencies": [\
-            ["@react-editor-js/client", "virtual:1951d73c6d0379ea2ed3f5fa247e17141323234dea07e0fd6f57cbfb3f2185c7d0b60af92a196bf3619d407a8628d1cf29c1743c0ff0af1cba240f4765d0f4c4#npm:2.1.0"],\
-            ["@editorjs/editorjs", null],\
-            ["@editorjs/paragraph", null],\
-            ["@react-editor-js/core", "virtual:1951d73c6d0379ea2ed3f5fa247e17141323234dea07e0fd6f57cbfb3f2185c7d0b60af92a196bf3619d407a8628d1cf29c1743c0ff0af1cba240f4765d0f4c4#npm:2.1.0"],\
-            ["@types/editorjs__editorjs", null],\
-            ["@types/editorjs__paragraph", null],\
-            ["@types/react", null],\
-            ["react", null]\
-          ],\
-          "packagePeers": [\
-            "@editorjs/editorjs",\
-            "@editorjs/paragraph",\
-            "@types/editorjs__editorjs",\
-            "@types/editorjs__paragraph",\
-            "@types/react",\
-            "react"\
-          ],\
-          "linkType": "HARD"\
-        }]\
-      ]],\
-      ["@react-editor-js/core", [\
-        ["npm:2.1.0", {\
-          "packageLocation": "./.yarn/cache/@react-editor-js-core-npm-2.1.0-6e409c5f00-753509eaf8.zip/node_modules/@react-editor-js/core/",\
-          "packageDependencies": [\
-            ["@react-editor-js/core", "npm:2.1.0"]\
-          ],\
-          "linkType": "SOFT"\
-        }],\
-        ["virtual:1951d73c6d0379ea2ed3f5fa247e17141323234dea07e0fd6f57cbfb3f2185c7d0b60af92a196bf3619d407a8628d1cf29c1743c0ff0af1cba240f4765d0f4c4#npm:2.1.0", {\
-          "packageLocation": "./.yarn/__virtual__/@react-editor-js-core-virtual-7a60c19322/0/cache/@react-editor-js-core-npm-2.1.0-6e409c5f00-753509eaf8.zip/node_modules/@react-editor-js/core/",\
-          "packageDependencies": [\
-            ["@react-editor-js/core", "virtual:1951d73c6d0379ea2ed3f5fa247e17141323234dea07e0fd6f57cbfb3f2185c7d0b60af92a196bf3619d407a8628d1cf29c1743c0ff0af1cba240f4765d0f4c4#npm:2.1.0"],\
-            ["@editorjs/editorjs", null],\
-            ["@types/editorjs__editorjs", null],\
-            ["@types/react", null],\
-            ["react", null]\
-          ],\
-          "packagePeers": [\
-            "@editorjs/editorjs",\
-            "@types/editorjs__editorjs",\
-            "@types/react",\
-            "react"\
-          ],\
-          "linkType": "HARD"\
-        }]\
-      ]],\
-      ["@react-editor-js/server", [\
-        ["npm:2.1.0", {\
-          "packageLocation": "./.yarn/cache/@react-editor-js-server-npm-2.1.0-6cd3853f4d-ff0139cd59.zip/node_modules/@react-editor-js/server/",\
-          "packageDependencies": [\
-            ["@react-editor-js/server", "npm:2.1.0"]\
-          ],\
-          "linkType": "SOFT"\
-        }],\
-        ["virtual:1951d73c6d0379ea2ed3f5fa247e17141323234dea07e0fd6f57cbfb3f2185c7d0b60af92a196bf3619d407a8628d1cf29c1743c0ff0af1cba240f4765d0f4c4#npm:2.1.0", {\
-          "packageLocation": "./.yarn/__virtual__/@react-editor-js-server-virtual-77485c84d0/0/cache/@react-editor-js-server-npm-2.1.0-6cd3853f4d-ff0139cd59.zip/node_modules/@react-editor-js/server/",\
-          "packageDependencies": [\
-            ["@react-editor-js/server", "virtual:1951d73c6d0379ea2ed3f5fa247e17141323234dea07e0fd6f57cbfb3f2185c7d0b60af92a196bf3619d407a8628d1cf29c1743c0ff0af1cba240f4765d0f4c4#npm:2.1.0"],\
-            ["@editorjs/editorjs", null],\
-            ["@editorjs/paragraph", null],\
-            ["@react-editor-js/core", "virtual:1951d73c6d0379ea2ed3f5fa247e17141323234dea07e0fd6f57cbfb3f2185c7d0b60af92a196bf3619d407a8628d1cf29c1743c0ff0af1cba240f4765d0f4c4#npm:2.1.0"],\
-            ["@types/editorjs__editorjs", null],\
-            ["@types/editorjs__paragraph", null],\
-            ["@types/react", null],\
-            ["react", null]\
-          ],\
-          "packagePeers": [\
-            "@editorjs/editorjs",\
-            "@editorjs/paragraph",\
-            "@types/editorjs__editorjs",\
-            "@types/editorjs__paragraph",\
-            "@types/react",\
-            "react"\
           ],\
           "linkType": "HARD"\
         }]\
@@ -1275,24 +1133,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/clsx-npm-1.2.1-77792dc182-30befca801.zip/node_modules/clsx/",\
           "packageDependencies": [\
             ["clsx", "npm:1.2.1"]\
-          ],\
-          "linkType": "HARD"\
-        }]\
-      ]],\
-      ["codex-notifier", [\
-        ["npm:1.1.2", {\
-          "packageLocation": "./.yarn/cache/codex-notifier-npm-1.1.2-893faf9b49-2130f5b1ff.zip/node_modules/codex-notifier/",\
-          "packageDependencies": [\
-            ["codex-notifier", "npm:1.1.2"]\
-          ],\
-          "linkType": "HARD"\
-        }]\
-      ]],\
-      ["codex-tooltip", [\
-        ["npm:1.0.5", {\
-          "packageLocation": "./.yarn/cache/codex-tooltip-npm-1.0.5-b69f9284fd-8ea91ce698.zip/node_modules/codex-tooltip/",\
-          "packageDependencies": [\
-            ["codex-tooltip", "npm:1.0.5"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -2587,15 +2427,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
-      ["html-janitor", [\
-        ["npm:2.0.4", {\
-          "packageLocation": "./.yarn/cache/html-janitor-npm-2.0.4-c37abe5f0d-e571c8d753.zip/node_modules/html-janitor/",\
-          "packageDependencies": [\
-            ["html-janitor", "npm:2.0.4"]\
-          ],\
-          "linkType": "HARD"\
-        }]\
-      ]],\
       ["http-cache-semantics", [\
         ["npm:4.1.0", {\
           "packageLocation": "./.yarn/cache/http-cache-semantics-npm-4.1.0-860520a31f-974de94a81.zip/node_modules/http-cache-semantics/",\
@@ -3094,9 +2925,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./",\
           "packageDependencies": [\
             ["lite-main-web", "workspace:."],\
-            ["@editorjs/checklist", "npm:1.4.0"],\
-            ["@editorjs/editorjs", "npm:2.26.4"],\
-            ["@editorjs/paragraph", "npm:2.9.0"],\
             ["@next/font", "npm:13.1.2"],\
             ["@types/node", "npm:18.11.18"],\
             ["@types/react", "npm:18.0.26"],\
@@ -3110,7 +2938,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["prettier", "npm:2.8.3"],\
             ["react", "npm:18.2.0"],\
             ["react-dom", "virtual:987813db322887fc7c7a3ed110ff4df9de17f5a5d47638e2ee48a79c80dd2ee4204f5d6ad500aba17aac22aae9ab1a910f0cbdc0edece6e620e25f83220c9dd3#npm:18.2.0"],\
-            ["react-editor-js", "npm:2.1.0"],\
             ["semantic-ui-css", "npm:2.5.0"],\
             ["semantic-ui-react", "virtual:987813db322887fc7c7a3ed110ff4df9de17f5a5d47638e2ee48a79c80dd2ee4204f5d6ad500aba17aac22aae9ab1a910f0cbdc0edece6e620e25f83220c9dd3#npm:2.1.4"],\
             ["typescript", "patch:typescript@npm%3A4.9.4#~builtin<compat/typescript>::version=4.9.4&hash=ad5954"]\
@@ -3750,18 +3577,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packagePeers": [\
             "@types/react",\
             "react"\
-          ],\
-          "linkType": "HARD"\
-        }]\
-      ]],\
-      ["react-editor-js", [\
-        ["npm:2.1.0", {\
-          "packageLocation": "./.yarn/cache/react-editor-js-npm-2.1.0-1951d73c6d-d18672cecb.zip/node_modules/react-editor-js/",\
-          "packageDependencies": [\
-            ["react-editor-js", "npm:2.1.0"],\
-            ["@react-editor-js/client", "virtual:1951d73c6d0379ea2ed3f5fa247e17141323234dea07e0fd6f57cbfb3f2185c7d0b60af92a196bf3619d407a8628d1cf29c1743c0ff0af1cba240f4765d0f4c4#npm:2.1.0"],\
-            ["@react-editor-js/core", "virtual:1951d73c6d0379ea2ed3f5fa247e17141323234dea07e0fd6f57cbfb3f2185c7d0b60af92a196bf3619d407a8628d1cf29c1743c0ff0af1cba240f4765d0f4c4#npm:2.1.0"],\
-            ["@react-editor-js/server", "virtual:1951d73c6d0379ea2ed3f5fa247e17141323234dea07e0fd6f57cbfb3f2185c7d0b60af92a196bf3619d407a8628d1cf29c1743c0ff0af1cba240f4765d0f4c4#npm:2.1.0"]\
           ],\
           "linkType": "HARD"\
         }]\
